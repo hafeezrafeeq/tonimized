@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.gredient {
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+
+}
+
+.gredient-nav {
+  background: linear-gradient(228.48deg, #bdb8308b 296.91%, #80f9c0 20%);
+
+}
+
+
+
+.btn-nav {
+  background: linear-gradient(180deg, #f7de03 -67.82%, #ffa620);
+
+}
+
+
+.custpmizeCircle {
+
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  box-shadow: inset -10px -10px 40px hsla(0, 0%, 100%, .45), inset 10px 10px 20px rgba(0, 0, 0, .45);
+}
+
+
+
+.img-end{
+  display: flex;
+  justify-content: end;
+}
+
+.iconCircle {
+  width: 8vw;
+  height: 8vw;
+  box-shadow: rgba(255, 255, 255, 0.45) -10px -10px 40px inset, rgba(0, 0, 0, 0.45) 10px 10px 20px inset;
+  background: linear-gradient(228.48deg, rgb(242, 236, 59) 20.3%, rgb(128, 249, 192) 96.91%)
+}
+
+
+/* work */
+
+.worksBigCircle {
+    width: 17vw;
+    height: 17vw;
+    margin-top: -38vw;
+    box-shadow: rgba(255, 255, 255, 0.45) -10px -10px 40px inset, rgba(0, 0, 0, 0.35) 8px 8px 25px inset;
+    border-radius: 100rem;
+    background: linear-gradient(228.48deg, rgb(242, 236, 59) 20.3%, rgb(128, 249, 192) 96.91%);
+}
+
+
+/*  */
+
+
+.icone-text-color {
+  color: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+
+
+}
+
+.btn-color {
+  background: linear-gradient(rgb(148, 25, 223), rgb(75, 25, 218));
+  color: white;
+  padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+.halfCircle {
+
+  left: -12vw;
+  width: 20vw;
+  height: 20vw;
+ margin-top: 20vw;
+  position: absolute;
+  border-radius: 15rem;
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  box-shadow: inset -10px -10px 40px hsla(0, 0%, 100%, .45), inset 8px 8px 25px rgba(0, 0, 0, .35);
+}
+
+
+.bigBlackCircle {
+
+right:  -10vw;
+  width: 35vw;
+  height: 35vw;
+  position: absolute;
+  margin: -10vw 0 0 -10vw;
+  border-radius: 50rem;
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  box-shadow: inset -10px -10px 40px hsla(0, 0%, 100%, .45), inset 8px 8px 25px rgba(0, 0, 0, .35);
+}
+
+.gallaryImg {
+
+
+    margin-top: 1vw;
+
+    object-fit: cover;
+    border-radius: 1vw;
+    background-color: #343434;
+}
+
+
+.opinionsCircles {
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-top: -20vw;
+    margin-left: 8vw;
+    position: absolute;
+    box-shadow: rgba(255, 255, 255, 0.45) -10px -10px 40px inset, rgba(0, 0, 0, 0.35) 8px 8px 25px inset;
+    border-radius: 15rem;
+    background: linear-gradient(228.48deg, rgb(242, 236, 59) 20.3%, rgb(128, 249, 192) 96.91%);
+}
+
+.opinionShirt {
+    top: -16vw;
+    left: 2vw;
+    width: 30vw;
+    position: absolute;
+}
+
+.mobileCover {
+    z-index: 2;
+    width: 20vw;
+    margin-top: 6vw;
+    margin-left: 5vw;
+    position: relative;
+}
+
+.bookCover {
+    left: 4vw;
+    width: 20vw;
+    margin-top: -6vw;
+    position:absolute ;
+}
+
+.opinionsBox {
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: rgba(47, 47, 47, 0.25) 0px 4px 10px;
+    background: linear-gradient(rgb(28, 28, 28), rgb(28, 28, 28));
+}

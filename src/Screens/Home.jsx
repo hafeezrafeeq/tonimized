@@ -5,7 +5,7 @@ import CartoonStyle from '../components/CrtoonStyle';
 import Works from '../components/Works';
 import Opinions from '../components/Opinions';
 import MeetArtists from '../components/MeetArtists'
-import Discounts from '../components/discounts'
+import Discounts from '../components/Discounts'
 import Footer from '../components/Footer'
 import { useEffect } from 'react';
 

@@ -32,7 +32,6 @@ function works() {
                         <video
                             src={demoVideo}
                             controls
-                            autoPlay
                             loop
                             className="w-[65%]  shadow-lg"
                         />

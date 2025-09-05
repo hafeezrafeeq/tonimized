@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-
 import Appbar from "../Gallery-Components/Appbar"
 
 

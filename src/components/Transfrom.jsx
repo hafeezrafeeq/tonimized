@@ -12,7 +12,7 @@ function Transfrom() {
 
 
 
-                    <div className="raleway text-stone-50 font-bold mr-[6vw] text-center md:text-end sm-w-[100%] sm:text-center md:w-[50%] mx-[8vw] md:mx-[4vw]  lg:w-[50%]" >
+                    <div className="animate-slide-in-right raleway text-stone-50 font-bold mr-[6vw] text-center md:text-end sm-w-[100%] sm:text-center md:w-[50%] mx-[8vw] md:mx-[4vw]  lg:w-[50%]" >
                         <h1 className="xl:text-8xl lg:text-6xl md:text-4xl sm:text-6xl text-3xl pt-[5vw]">Let’s transform you into art</h1>
 
                         <div className="text-stone-50 raleway lg:text-3xl md:text-2xl font-bold mt-8">

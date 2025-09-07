@@ -34,7 +34,7 @@ function Transfrom() {
 
                     <div>
                         <div className="iconCircle rounded-full flex flex-center items-center ">
-                            <div className="bg-green-50 p-4 rounded-full m-auto" >
+                            <div className="bg-green-50 p-8 rounded-full m-auto" >
                                 <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/pen_zoev8o.png" alt="img" />
                             </div>
                         </div>
@@ -45,15 +45,15 @@ function Transfrom() {
                                     WebkitBackgroundClip: 'text',
                                     WebkitTextFillColor: 'transparent',
                                 }}>4259+</h1>
-                            <h2 className="text-1xl w-26 mt-2 text-lime-">Drawings</h2>
+                            <h2 className="text-1xl w-12 mt-2 text-lime-">Drawings</h2>
                         </div>
                     </div>
 
 
                     <div>
                         <div className="iconCircle rounded-full flex flex-center">
-                            <div className="bg-green-50 p-4 rounded-full m-auto" >
-                                <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/paint_p1uu9k.png" alt="img" />
+                            <div className="bg-green-50   rounded-full m-auto" >
+                                <img className="" src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/paint_p1uu9k.png"  alt="img" />
                             </div>
                         </div>
                         <div className="text-center raleway text-stone-50 font-bold mt-4">
@@ -144,7 +144,7 @@ function Transfrom() {
 
                 <div className="m-auto flex justify-center p-20">
 
-                    <button className="btn-color w-60 border-4 rounded-md ">TRY CUSTOMIZATION</button>
+                    <button className="btn-color w-20 border-4 rounded-md ">TRY CUSTOMIZATION</button>
                 </div>
 
 

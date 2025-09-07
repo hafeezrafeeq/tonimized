@@ -75,8 +75,7 @@ body {
 }
 
 .iconCircle {
-  width: 8vw;
-  height: 8vw;
+width: 2;
   box-shadow: rgba(255, 255, 255, 0.45) -10px -10px 40px inset, rgba(0, 0, 0, 0.45) 10px 10px 20px inset;
   background: linear-gradient(228.48deg, rgb(242, 236, 59) 20.3%, rgb(128, 249, 192) 96.91%)
 }

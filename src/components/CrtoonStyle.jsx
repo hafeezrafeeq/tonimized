@@ -34,9 +34,9 @@ const CartoonStyle = () => {
 
         <>
             <div className='gredient'>
-                <div className="flex flex-col md:flex-row items-center justify-center gap-10  pt-20 mx-[4vw] ">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-10  pt-20 mx-[4vw]  md:mx-[4vw] ">
                     {/* Text Section */}
-                    <div className="  text-center md:text-left w-[45%]">
+                    <div className="  text-center md:text-left w-[85%] sm:w-[45%]">
                         <h1 className="raleway text-stone-800 font-bold text-4xl lg:text-6xl md:5xl sm:text-6xl l md:text-5xl ">
                             Choose between Poopular Cartoon styles
                         </h1>
@@ -47,12 +47,12 @@ const CartoonStyle = () => {
                     </div>
 
                     {/* Circle Layout Section */}
-                    <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[480px] md:h-[480px] lg:w-[420px] lg:h-[420px] flex items-center justify-center">
+                    <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[480px] md:h-[480px] lg:w-[420px] lg:h-[420px]  flex items-center justify-center">
 
 
                         {/* Main Image */}
                         <div
-                            className="rounded-full overflow-hidden shadow-lg cursor-pointer flex items-center justify-center w-[28vw] h-[28vw] custpmizeCircle"
+                            className="rounded-full overflow-hidden shadow-lg cursor-pointer flex items-center justify-center lg:w-[28vw] lg:h-[28vw] md:w-[40vw] md:h-[40vw] sm:w-[45vw] sm:h-[45vw] w-[50vw] h-[50vw] custpmizeCircle mx-[2vw]"
                             onClick={handleMainClick}
                         >
                             <img
@@ -68,7 +68,7 @@ const CartoonStyle = () => {
                                     prevIndex === 0 ? mainSliderImages.length - 1 : prevIndex - 1
                                 )
                             }
-                            className="absolute left-[-4vw] sm:left-[-4vw] w-12 h-12 flex items-center justify-center    hover:text-amber-400 text-white-500 animate-bounce transition duration-100 z-20"
+                            className="absolute left-[-8vw] sm:left-[-1vw] w-12 h-12 flex items-center justify-center    hover:text-amber-400 text-white-500 animate-bounce transition duration-100 z-20"
                         >
                             <ChevronLeft className="w-14 h-14" />
                         </button>
@@ -78,7 +78,7 @@ const CartoonStyle = () => {
                             onClick={() =>
                                 setCurrentIndex((prevIndex) => (prevIndex + 1) % mainSliderImages.length)
                             }
-                            className="absolute right-[-6vw] sm:right-[-6vw] w-12 h-12 flex items-center justify-center  hover:text-amber-400  text-white-800 animate-bounce transition duration-300 z-20"
+                            className="absolute right-[-8vw] sm:right-[-1vw] w-12 h-12 flex items-center justify-center  hover:text-amber-400  text-white-800 animate-bounce transition duration-300 z-20"
                         >
                             <ChevronRight className="w-14 h-14" />
                         </button>

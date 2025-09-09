@@ -12,7 +12,7 @@ function MeetArtists() {
                             Also for any questions about the artists, check FAQ or contact us.</p>
                     </div>
                     <div className=" ">
-                        <button className="btn-color lg:w-1/2  pb-6 w-1/6 border-4 text-sm rounded-md ">SEE THE ARTISTS</button>
+                        <button className="btn-color pb-6 w-60 border-4 text-sm rounded-md ">SEE THE ARTISTS</button>
 
                     </div>
 

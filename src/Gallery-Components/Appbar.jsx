@@ -1,6 +1,10 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+
 
 function Appbar(className="") {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +20,11 @@ function Appbar(className="") {
             alt="Logo"
           />
 
-          {/* Hamburger Icon (Mobile Only) */}
-          <button
+         <button
             className="md:hidden text-stone-800 text-2xl"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <i className="fas fa-bars"></i>
+            <FontAwesomeIcon icon={isOpen ? setIsOpen : faBars} />
           </button>
         </div>
 
@@ -35,7 +38,7 @@ function Appbar(className="") {
 
         {/* Right Section (Desktop Only) */}
         <div className="hidden md:flex items-center gap-6">
-          <i className="fa-solid fa-cart-shopping text-2xl text-stone-500"></i>
+      
           <button className="btn-nav hover:bg-white text-white font-semibold py-2 px-4 rounded-lg shadow">
             GET STARTED
           </button>
@@ -44,15 +47,15 @@ function Appbar(className="") {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden px-6 pb-4">
+        <div className=" px-6 pb-4">
           <nav className="flex flex-col gap-4 pt-6 raleway font-bold text-lg">
             <Link className="text-stone-800 hover:text-amber-200" to="/" onClick={() => setIsOpen(false)}>Home</Link>
             <Link className="text-stone-800 hover:text-amber-200" to="/gallery" onClick={() => setIsOpen(false)}>Gallery</Link>
             <Link className="text-stone-800 hover:text-amber-200" to="/articts" onClick={() => setIsOpen(false)}>Articts</Link>
             <Link className="text-stone-800 hover:text-amber-200" to="/faq" onClick={() => setIsOpen(false)}>FAQ</Link>
             <div className="flex items-center gap-12 mt-2">
-              <i className="fa-solid fa-cart-shopping text-2xl text-stone-500"></i>
-              <button className="btn-nav hover:bg-white text-white font-semibold py-2 px-4 rounded-lg shadow">
+      
+              <button className="btn-nav text-sm hover:bg-white text-white font-semibold py-2 px-[6vw] rounded-lg shadow">
                 GET STARTED
               </button>
             </div>

@@ -23,6 +23,8 @@ function Navbar() {
                             </ul>
                         </nav>
                     </div>
+
+                    
                     <div className="">
                         <div className="animate-fade-in xl:text-8xl lg:text-7xl md:text-6xl sm:text-4xl raleway text-stone-800 font-bold lg:mt-35  md:mt-20 sm:mt-20 md:p-10 sm:p-5  p-25" >
                             <h1>Cartoonize Yourself</h1>
@@ -38,9 +40,9 @@ function Navbar() {
 
                 <div className="animate-fade-in sm:hidden block raleway gredient pt-[6vw]">
                     <div className=" text-stone-800 font-bold ml-[4vw]" >
-                        <h1 className="text-[5.5vw]"> Cartoonize Yourself</h1>
-                        <div className="bg-stone-800 w-[18vw] rounded-lg h-1 mt-6"></div>
-                        <div className="text-stone-800  text-[3.8vw] me-[2vw] font-bold mt-6">
+                        <h1 className="text-[5.2vw] w-[2vw]"> Cartoonize Yourself</h1>
+                        <div className="bg-stone-800 w-[18vw] rounded-lg h-1 mt-2"></div>
+                        <div className="text-stone-800  text-[2.5vw] m-[] me-[2vw] font-bold mt-6">
                             <p>No generated Animations! <br />
                                 Enjoy an Artist’s personalized work of you!</p>
                         </div>

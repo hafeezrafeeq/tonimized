@@ -1,5 +1,6 @@
 import insta from '../assets/instagram.png';
 import facebook from '../assets/Facebook.png';
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -18,11 +19,11 @@ function Footer() {
 
         <div className="space-y-3 text-right md:text-left">
           
-          <ul className="space-y-1">
-            <li><a href="#" className="hover:text-yellow-400 font-bold">Home</a></li>
-            <li><a href="#" className="hover:text-yellow-400 font-bold">Customize Now!</a></li>
-            <li><a href="#" className="hover:text-yellow-400 font-bold">FAQ</a></li>
-            <li><a href="#" className="hover:text-yellow-400 font-bold">Contact</a></li>
+          <ul className="flex flex-col font-bold">
+             <Link className="text-stone-50 hover:text-amber-200" to="/" onClick={() => setIsOpen(false)}>Home</Link>
+            <Link className="text-stone-50 hover:text-amber-200" to="/gallery" onClick={() => setIsOpen(false)}>Gallery</Link>
+            <Link className="text-stone-50 hover:text-amber-200" to="/articts" onClick={() => setIsOpen(false)}>Articts</Link>
+            <Link className="text-stone-50 hover:text-amber-200" to="/faq" onClick={() => setIsOpen(false)}>FAQ</Link>
           </ul>
         </div>
 
